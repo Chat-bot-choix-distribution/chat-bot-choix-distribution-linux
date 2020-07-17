@@ -3,10 +3,10 @@ Bot de conversation de choix de Distribution Linux
 
 
 ###FlowChart
-  
-Premier Jet de l'organigramme  
 
-```flow
+Premier Jet du diagramme  
+
+``` flow
 st=>start: Début du questionnaire
 cond1=>condition: Êtes vous débutant ?
 cond2=>condition: Sur GNU/Linux ?
@@ -17,7 +17,7 @@ cond7=>condition: Capacité de la machine ?
 cond8=>condition: peur des lignes de commande ?
 cond9=>condition: peur des lignes de commande ?
 U=>end: Ubuntu
-M=>end: Mint
+M=>end: LinuxMint
 D=>end: DFLinux
 A=>end: ArchLinux
 B=>end: Debian
@@ -39,3 +39,4 @@ cond8(no)->A
 cond9(yes)->B
 cond9(no)->A
 ```
+![Diagramme](README.png)
