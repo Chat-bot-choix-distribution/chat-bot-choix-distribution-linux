@@ -1,11 +1,13 @@
-# chat-bot-choix-distribution-linux
+#  chat-bot-choix-distribution-linux
+  
 Bot de conversation de choix de Distribution Linux
-
-
-###FlowChart
+  
+  
+### FlowChart
+  
   
 Premier Jet de l'organigramme  
-
+  
 ```flow
 st=>start: Début du questionnaire
 cond1=>condition: Êtes vous débutant ?
@@ -21,7 +23,7 @@ M=>end: Mint
 D=>end: DFLinux
 A=>end: ArchLinux
 B=>end: Debian
-
+  
 st->cond1
 cond1(yes)->cond2
 cond1(no)->cond3
@@ -39,3 +41,4 @@ cond8(no)->A
 cond9(yes)->B
 cond9(no)->A
 ```
+  
