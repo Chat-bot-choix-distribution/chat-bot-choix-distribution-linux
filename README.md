@@ -1,6 +1,17 @@
 # chat-bot-choix-distribution-linux
 Bot de conversation de choix de Distribution Linux
 
+##Tableau :
+tableau question https://lite.framacalc.org/9hup-yjh64atols
+tableau liste distribution : https://lite.framacalc.org/9hup-pkflf0yt0x
+
+##Lien YouTube (R) Présentation distributions !
+
+https://www.youtube.com/watch?v=6w2jBj8m7-8&t=3393s
+
+##Concurrent :
+
+https://distrochooser.de/?l=2
 
 ###FlowChart
 
@@ -40,3 +51,5 @@ cond9(yes)->B
 cond9(no)->A
 ```
 ![Diagramme](README.png)
+
+![Diagramme2](graphique.jpg)
