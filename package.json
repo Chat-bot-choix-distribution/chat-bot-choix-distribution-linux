@@ -2,18 +2,20 @@
   "name": "chat-bot-choix-distribution-linux",
   "version": "1.0.0",
   "description": "Bot sur Facebook Messenger pour choisir sa distribution Linux.",
-  "main": "bot.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "start": "node app.js"
   },
   "author": "Paul WOISARD",
   "license": "GPLv3",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "config": "^1.21.0",
-    "express": "^4.14.0",
-    "request": "^2.75.0",
-    "mongoose": "^5.9.25"
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "mongoose": "^5.9.26",
+    "socket.io": "^2.3.0",
+    "html": "^1.0.0"
   }
 }
